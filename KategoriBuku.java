@@ -99,10 +99,10 @@ class KategoriBuku{
     }
 
     //Method copy yang mengembalikan object yang nilainya sama
-    //parameter merujuk pada posisi array yang ingin di copy
     public KategoriBuku copy(){
         return  new KategoriBuku(this.kategori, this.banyakBuku,this.daftarBuku);
     }
 
 }
+
 
